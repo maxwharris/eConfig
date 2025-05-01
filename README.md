@@ -1,10 +1,10 @@
 
 # eConfig
 
-Config Editor with minimal GUI designed for linux config files.
+Configuration editor with minimal GUI designed for linux config files.
 
 
-supports most config files but can TRY to work on any file.
+supports various configuration files but will TRY to work on any file.
 
 
 use with caution.
