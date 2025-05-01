@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import filedialog, messagebox, simpledialog, ttk
 import os
 import re
+import sys
 from pathlib import Path
 import copy
 
@@ -218,4 +219,6 @@ class ConfigEditor(tk.Tk):
 
 if __name__ == "__main__":
     app = ConfigEditor()
+    if len(sys.argv) > 1:
+        app.load_file(path_override=sys.argv[1])
     app.mainloop()
